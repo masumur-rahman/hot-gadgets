@@ -1,21 +1,40 @@
-.container {
-    margin-bottom: 100px;
-}
+/*
+  Theme Name: Name - Hot Gadgets
+  Author: Masumur Rahman
+  Description: Hot Gadgets Botstrap 4 template.
+  Version: 1.0.0
+*/
 
+body{
+    font-family: 'Nunito Sans';
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+}
+h5{
+    font-weight: 700
+}
 .navbar-brand img {
     width: 120px;
 }
 
 .heading-3 h3 {
+    font-family: 'Nunito Sans';
     position: relative;
+    font-weight: 700
 }
-
+.space{
+    padding: 80px 0 0px
+}
 h5 a {
     color: #ffa81d;
     text-decoration: none;
-}
 
-h5 a:hover {
+}
+a:hover {
+    color: #e78588;
     text-decoration: none;
 }
 .fa-arrow-right{
@@ -32,7 +51,18 @@ h5 a:hover {
     border-radius: 5px;
     background-image: linear-gradient(45deg, #ffbf22, #ff9c35);
 }
-
+.slider{
+    position:relative
+}
+.dot-shape{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index:-1
+}
+.dot-shape img{
+    width: 100px
+}
 .carousel-indicators li {
     width: 20px;
     height: 7px;
@@ -63,13 +93,15 @@ h5 a:hover {
     padding: 9px 25px;
     cursor: pointer;
 }
-
+.buy-now-button:hover {
+    background-color: #ff9c35;
+}
 .categories-area {
     padding: 80px 0 80px 0;
 }
 
 .categories-area h3 {
-    font-size: 15px;
+    font-size: 18px;
     padding: 20px;
 }
 
@@ -86,9 +118,28 @@ h5 a:hover {
 .card {
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 0px 40px 10px lightgrey;
-}
+    box-shadow: 0 0 10px 0 rgba(204, 204, 204, 0.42);
 
+}
+.cat-box-1{
+    box-shadow: 0 0 10px 0 rgba(204, 204, 204, 0.42);
+    padding: 15px;
+    width: 290px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.cat-box-2{
+    box-shadow: 0 0 10px 0 rgba(204, 204, 204, 0.42);
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
 .card:hover {
-    box-shadow: 0px 0px 30px 5px lightgrey;
+    box-shadow: 0px 0px 30px 5px rgba(204, 204, 204, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:rgba(204, 204, 204, 0.31)
 }

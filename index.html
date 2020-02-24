@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,7 @@
     <title>Hot Gadgets</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +16,7 @@
 
 <!-- Navbar area-->
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="">
         </a>
@@ -25,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Product</a>
@@ -42,176 +44,187 @@
 </div>
 
 <!-- Slider area-->
-<div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide orange-bg0" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="row align-items-center">
-                    <div class="col-md-5">
-                        <h1 class="mb-3">Mackbook Pro</h1>
-                        <p>This is the best tv in the world for people who just want to waste time in front of tv.Lorem
-                            ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, officiis.</p>
+<section class="slider">
 
-                        <h1 class="price mb-3">$1200</h1>
-                        <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </button>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide orange-bg0" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                            <h1 class="mb-3">Macbook Pro</h1>
+                            <p>This is the best tv in the world for people who just want to waste time in front of tv.Lorem
+                                ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, officiis.</p>
+
+                            <button class="buy-now-button mb-4">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="images/banner-products/product-1.jpg" class="d-block w-100" alt="product-1.jpg">
+                        </div>
                     </div>
-                    <div class="col-md-7">
-                        <img src="images/banner-products/product-1.png" class="d-block w-100" alt="product-1.png">
+                </div>
+                <div class="carousel-item">
+                    <div class="row  align-items-center">
+                        <div class="col-md-5">
+                            <h1 class="mb-3">Amazon Alexa</h1>
+                            <p>This is the best headphone in the world for people who just want to waste time in front of
+                                funky world.</p>
+                            <button class="buy-now-button mb-4">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="images/banner-products/slider-2.jpg" class="d-block w-100" alt="slider-2.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                            <h1 class="mb-3">JBL Charge 4</h1>
+                            <p>This is the best xbox in the world for people who just want to waste time in front of fake
+                                sports.</p>
+                            <button class="buy-now-button mb-4">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="images/banner-products/slider-3.jpg" class="d-block w-100" alt="slider-3.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="row  align-items-center">
-                    <div class="col-md-5">
-                        <h1 class="mb-3">Amazon Alexa</h1>
-                        <p>This is the best headphone in the world for people who just want to waste time in front of
-                            funky world.</p>
-                        <h1 class="price mb-3">$420</h1>
-                        <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <div class="col-md-7">
-                        <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row align-items-center">
-                    <div class="col-md-5">
-                        <h1 class="mb-3">JBL Charge 4</h1>
-                        <p>This is the best x-box in the world for people who just want to waste time in front of fake
-                            sports.</p>
-                        <h1 class="price mb-3">$600</h1>
-                        <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <div class="col-md-7">
-                        <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="slider-3.png">
-                    </div>
-                </div>
-            </div>
+
         </div>
-
     </div>
-</div>
+    <div class="dot-shape">
+        <img src="images/dot.png" alt="dot.png">
+    </div>
 
+</section>
 <!-- Smartphone area-->
-<div class="container">
+<section class="space">
+    <div class="container">
 
-    <div class="row d-flex mb-5">
-        <div class="col-lg-6 text-left"><h3>Smartphone</h3></div>
-        <div class="col-lg-6 text-right"><h5><a href="">See All</a></h5></div>
-    </div>
-    <div class="card-deck">
-        <div class="card text-center">
-            <img src="images/phone/phone-2.png" class="card-img-top" alt="phone-2.png">
-            <div class="card-body">
-                <h5 class="card-title">iPhone 11 Pro</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                    additional.</p>
-                <h5>$999</h5>
-                <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-            </div>
-        </div>
-        <div class="card text-center">
-            <img src="images/phone/phone-3.png" class="card-img-top" alt="phone-3.png">
-            <div class="card-body">
-                <h5 class="card-title">Samsung Galaxy Note10+</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <h5>$799</h5>
-                <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-            </div>
-        </div>
-        <div class="card text-center">
-            <img src="images/phone/phone-1.png" class="card-img-top" alt="phone-1.png">
-            <div class="card-body">
-                <h5 class="card-title mb-4"></h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional.</p>
-                <h5>$699</h5>
-                <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-            </div>
-        </div>
-    </div>
-</div>
+        <div class="row mb-5">
+            <div class="col-lg-12 d-flex justify-content-between"><h3>Smartphone</h3><h5><a href="">See All</a></h5></div>
 
+        </div>
+        <div class="card-deck">
+            <div class="card text-center">
+                <img src="images/phone/phone-2.png" class="card-img-top" alt="phone-2.png">
+                <div class="card-body">
+                    <h5 class="card-title">iPhone 11 Pro</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional.</p>
+                    <h5>$999</h5>
+                    <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="card text-center">
+                <img src="images/phone/phone-3.png" class="card-img-top" alt="phone-3.png">
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <h5>$799</h5>
+                    <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="card text-center">
+                <img src="images/phone/phone-1.png" class="card-img-top" alt="phone-1.png">
+                <div class="card-body">
+                    <h5 class="card-title">Redmmi Note 7</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional.</p>
+                    <h5>$699</h5>
+                    <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Laptop area-->
-<div class="container">
+<section class="space">
+    <div class="container">
 
-    <div class="row d-flex mb-5">
-        <div class="col-lg-6 text-left"><h3>Laptop</h3></div>
-        <div class="col-lg-6 text-right"><h5><a href="">See All</a></h5></div>
+        <div class="row mb-5">
+            <div class="col-lg-12 d-flex justify-content-between"><h3>Laptop</h3><h5><a href="">See All</a></h5></div>
+        </div>
+        <div class="card-deck">
+            <div class="card text-center">
+                <img src="images/laptop/product-1.png" class="card-img-top" alt="product-1.png">
+                <div class="card-body">
+                    <h5 class="card-title">Asus VivoBook</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional.</p>
+                    <h5>$999</h5>
+                    <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="card text-center">
+                <img src="images/laptop/product-2.png" class="card-img-top" alt="product-2.png">
+                <div class="card-body">
+                    <h5 class="card-title">Razer Blade 15</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <h5>$799</h5>
+                    <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="card text-center">
+                <img src="images/laptop/product-3.png" class="card-img-top" alt="product-3.png">
+                <div class="card-body">
+                    <h5 class="card-title mb-4">Xiaomi Mi Notebook Pro</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional.</p>
+                    <h5>$999</h5>
+                    <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="card-deck">
-        <div class="card text-center">
-            <img src="images/laptop/product-1.png" class="card-img-top" alt="product-1.png">
-            <div class="card-body">
-                <h5 class="card-title">Asus VivoBook</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                    additional.</p>
-                <h5>$999</h5>
-                <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-            </div>
-        </div>
-        <div class="card text-center">
-            <img src="images/laptop/product-2.png" class="card-img-top" alt="product-2.png">
-            <div class="card-body">
-                <h5 class="card-title">Razer Blade 15</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <h5>$799</h5>
-                <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-            </div>
-        </div>
-        <div class="card text-center">
-            <img src="images/laptop/product-3.png" class="card-img-top" alt="product-3.png">
-            <div class="card-body">
-                <h5 class="card-title mb-4">Xiaomi Mi Notebook Pro</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                    additional.</p>
-                <h5>$999</h5>
-                <button class="buy-now-button">Buy Now <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-            </div>
-        </div>
-    </div>
-</div>
-
+</section>
 <!-- Categories area-->
-<div class="container categories">
-    <div class="row d-flex justify-content-center heading-3">
-        <h3>Categories</h3>
-    </div>
-    <div class="row categories-area">
-        <div class="col-md-3 d-flex align-items-center">
-            <div class="text-center">
-                <img src="images/Categories/bag.png" alt="bag.png">
-                <h3>Bag</h3>
-            </div>
+<section class="space">
+    <div class="container categories">
+        <div class="row d-flex justify-content-center heading-3">
+            <h3>Categories</h3>
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <img src="images/Categories/perfume.png" alt="perfume.png">
-                    <h3>Beauty</h3>
-                </div>
-                <div class="col-md-12 text-center">
-                    <img src="images/Categories/shoe.png" alt="shoe.png">
-                    <h3>Shoe</h3>
+        <div class="row categories-area">
+            <div class="col-md-3 d-flex align-items-center justify-content-center">
+                <div class="cat-box-1 text-center mb-4">
+                    <img src="images/Categories/bag.png" alt="bag.png">
+                    <h3><a href="">Bag</a></h3>
                 </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <img src="images/Categories/pale-order.png" class="d-block w-100" alt="pale-order.png">
+            <div class="col-md-3 d-flex justify-content-center">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-4">
+                        <div class="cat-box-2">
+                            <img src="images/Categories/perfume.png" alt="perfume.png">
+                            <h3><a href="">Beauty</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <div class="cat-box-2">
+                            <img src="images/Categories/shoe.png" alt="shoe.png">
+                            <h3><a href="">Shoe</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/Categories/pale-order.png" class="d-block w-100" alt="pale-order.png">
+            </div>
         </div>
     </div>
-</div>
-
-
+</section>
+<footer>
+    <small> ©2020. Hot Gadgets. All rights reserved.</small>
+</footer>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -223,3 +236,5 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
+
+
